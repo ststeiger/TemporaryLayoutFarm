@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>a68aaba5-1ae2-402f-8b54-77abf84647e0</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>PixelFarm.DrawingCore</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)2_Abstract_DrawingElements\Brushes_Pens.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)2_Abstract_DrawingElements\Color.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)2_Abstract_DrawingElements\CombineMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)2_Abstract_DrawingElements\DashStyle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)2_Abstract_DrawingElements\GraphicsPath.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)2_Abstract_DrawingElements\Image.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)2_Abstract_DrawingElements\Region.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)3_DrawBoard\0_VertexCommandAndOrientation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)3_DrawBoard\1_VertexStore.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)3_DrawBoard\2_VertexStoreSnap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)3_DrawBoard\DrawBoard.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)3_DrawBoard\Painter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)3_DrawBoard\RenderVx.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)3_DrawBoard\RequestFont.cs" />
+  </ItemGroup>
+</Project>

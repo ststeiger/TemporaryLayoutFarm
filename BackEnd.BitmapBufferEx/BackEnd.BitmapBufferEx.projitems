@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>99e4a94f-8439-4e99-8f32-7ba6e4ceed1e</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>BackEnd.BitmapBufferEx</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)LICENSE" />
+    <None Include="$(MSBuildThisFileDirectory)README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)00_Porting\NativeMethods.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)00_Porting\PORTING_NOTMERGE.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BitmapBuffer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BitmapBufferExtensions\AntialiasingExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BitmapBufferExtensions\BaseExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BitmapBufferExtensions\BlitExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BitmapBufferExtensions\ConvertExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BitmapBufferExtensions\FillExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BitmapBufferExtensions\FilterExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BitmapBufferExtensions\LineAaExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BitmapBufferExtensions\LineExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BitmapBufferExtensions\ShapeExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BitmapBufferExtensions\SplineExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BitmapBufferExtensions\TransformationExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BitmapBufferFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)BitmapContext.cs" />
+  </ItemGroup>
+</Project>

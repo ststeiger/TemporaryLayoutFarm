@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>b9cc7c2c-50a1-4585-98c9-2fffd2e0dfc6</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>PixelFarm.Painter</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)2_Canvas\ColorEx.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)2_Canvas\ITextPrinter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)3_Cpu_Blit\ActualBitmap.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)3_Cpu_Blit\ColorRGBAf.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)3_Cpu_Blit\MemMx.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)3_Cpu_Blit\NativeMemMx.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)3_Cpu_Blit\PainterExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)4_CpuBlit_VertexProcessing\BoundingRect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)4_CpuBlit_VertexProcessing\CurveFlattener.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)4_CpuBlit_VertexProcessing\LineCapAndJoin.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)4_CpuBlit_VertexProcessing\LineWalker.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)4_CpuBlit_VertexProcessing\PathWriter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)4_CpuBlit_VertexProcessing\RoundedRect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)4_CpuBlit_VertexProcessing\SimpleRect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)4_CpuBlit_VertexProcessing\Stroke.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)4_CpuBlit_VertexProcessing\StrokeGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)4_CpuBlit_VertexProcessing\StrokeGen_Old.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)4_CpuBlit_VertexProcessing\StrokeMath.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)4_CpuBlit_VertexProcessing\VectorToolBox.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)4_CpuBlit_VertexProcessing\VertexData.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)4_CpuBlit_VertexProcessing\VertexHitTester.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)4_CpuBlit_VertexProcessing\VertexStoreBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)4_CpuBlit_VertexProcessing\VertexStoreExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)4_CpuBlit_VertexProcessing\VertexStoreTransformExtensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)4_CpuBlit_VertexProcessing\VxsClipping.cs" />
+  </ItemGroup>
+</Project>

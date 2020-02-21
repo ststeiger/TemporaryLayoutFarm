@@ -1,0 +1,96 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LayoutFarm", "LayoutFarm\LayoutFarm.csproj", "{5DF8B6B0-BCA2-44C4-A527-5C0059E90E11}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Typography.Contours", "Typography.Contours\Typography.Contours.shproj", "{16AF3672-531E-4E0D-8F23-65285FE56298}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Typography.GlyphLayout", "Typography.GlyphLayout\Typography.GlyphLayout.shproj", "{D8861CF8-C506-472B-8A57-632BD6CA6496}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Typography.OpenFont", "Typography.OpenFont\Typography.OpenFont.shproj", "{235A071B-8D06-40AE-A5C5-B1CE59715EE9}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Typography.TextBreak", "Typography.TextBreak\Typography.TextBreak.shproj", "{9A99F103-B119-4A4D-8093-6A03BAA6D36B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Pixelfarm.Triangulation", "Pixelfarm.Triangulation\Pixelfarm.Triangulation.shproj", "{151E9E59-4359-4195-A9CA-1D668E0A3417}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PixelFarm.Typography", "PixelFarm.Typography\PixelFarm.Typography.shproj", "{EA293B05-1C44-49E3-8ACB-5E9F988006D9}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "FontAtlas", "FontAtlas\FontAtlas.shproj", "{F6602808-F1D5-4E3B-BB8C-B9CA4AE77437}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BackEnd.BitmapBufferEx", "BackEnd.BitmapBufferEx\BackEnd.BitmapBufferEx.shproj", "{99E4A94F-8439-4E99-8F32-7BA6E4CEED1E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BackEnd.BurningMineCurve", "BackEnd.BurningMineCurve\BackEnd.BurningMineCurve.shproj", "{CE0E0975-F075-4680-8DAC-E9636A04024A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BackEnd.PaintFx", "BackEnd.PaintFx\BackEnd.PaintFx.shproj", "{306AC829-DCE1-4CF1-85C8-9099F4D225D6}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BackEnd.Tesselate", "BackEnd.Tesselate\BackEnd.Tesselate.shproj", "{E0870335-6D7A-4219-97CA-6150357913B0}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PixelFarm.CpuBlit", "PixelFarm.CpuBlit\PixelFarm.CpuBlit.shproj", "{13A73A20-4A30-449C-9B9E-88AA00958249}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PixelFarm.Drawing", "PixelFarm.Drawing\PixelFarm.Drawing.shproj", "{BEC9CE3C-6283-4FEB-9492-569F72E10341}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PixelFarm.DrawingCore", "PixelFarm.DrawingCore\PixelFarm.DrawingCore.shproj", "{A68AABA5-1AE2-402F-8B54-77ABF84647E0}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PixelFarm.Painter", "PixelFarm.Painter\PixelFarm.Painter.shproj", "{B9CC7C2C-50A1-4585-98C9-2FFFD2E0DFC6}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PixelFarm.PrimitiveGeo", "PixelFarm.PrimitiveGeo\PixelFarm.PrimitiveGeo.shproj", "{A1581C75-7367-4B33-B173-BB89D71421D1}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PixelFarm.Vectors", "PixelFarm.Vectors\PixelFarm.Vectors.shproj", "{DE582941-46E9-4B2A-B8B8-ED68EE0CD3E0}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "PaintFx.Shared", "PdnSharedProject\PaintFx.Shared.shproj", "{6FF96BFB-9E4B-4634-B682-7DE60468DA38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTestApp", "MyTestApp\MyTestApp.csproj", "{81609DB8-7B3D-4392-A830-39F820CF010B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Typography.TextServices", "Typography.TextServices\Typography.TextServices.shproj", "{D07686EE-2618-4C20-8EB5-32AD4C4D3810}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Typography.TextFlow", "Typography.TextFlow\Typography.TextFlow.shproj", "{7A8A63D2-2CB5-41F5-8E83-6F6E54398CF4}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Typography.MsdfGen", "Typography.MsdfGen\Typography.MsdfGen.shproj", "{86A03BFA-0879-4449-8D6C-B1F9FB062E7E}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		PixelFarm.CpuBlit\PixelFarm.CpuBlit.projitems*{13a73a20-4a30-449c-9b9e-88aa00958249}*SharedItemsImports = 13
+		Pixelfarm.Triangulation\Pixelfarm.Triangulation.projitems*{151e9e59-4359-4195-a9ca-1d668e0a3417}*SharedItemsImports = 13
+		Typography.Contours\Typography.Contours.projitems*{16af3672-531e-4e0d-8f23-65285fe56298}*SharedItemsImports = 13
+		Typography.OpenFont\Typography.OpenFont.projitems*{235a071b-8d06-40ae-a5c5-b1ce59715ee9}*SharedItemsImports = 13
+		BackEnd.PaintFx\BackEnd.PaintFx.projitems*{306ac829-dce1-4cf1-85c8-9099f4d225d6}*SharedItemsImports = 13
+		PdnSharedProject\PdnSharedProject.projitems*{6ff96bfb-9e4b-4634-b682-7de60468da38}*SharedItemsImports = 13
+		Typography.TextFlow\Typography.TextFlow.projitems*{7a8a63d2-2cb5-41f5-8e83-6f6e54398cf4}*SharedItemsImports = 13
+		Typography.MsdfGen\Typography.MsdfGen.projitems*{86a03bfa-0879-4449-8d6c-b1f9fb062e7e}*SharedItemsImports = 13
+		BackEnd.BitmapBufferEx\BackEnd.BitmapBufferEx.projitems*{99e4a94f-8439-4e99-8f32-7ba6e4ceed1e}*SharedItemsImports = 13
+		Typography.TextBreak\Typography.TextBreak.projitems*{9a99f103-b119-4a4d-8093-6a03baa6d36b}*SharedItemsImports = 13
+		PixelFarm.PrimitiveGeo\PixelFarm.PrimitiveGeo.projitems*{a1581c75-7367-4b33-b173-bb89d71421d1}*SharedItemsImports = 13
+		PixelFarm.DrawingCore\PixelFarm.DrawingCore.projitems*{a68aaba5-1ae2-402f-8b54-77abf84647e0}*SharedItemsImports = 13
+		PixelFarm.Painter\PixelFarm.Painter.projitems*{b9cc7c2c-50a1-4585-98c9-2fffd2e0dfc6}*SharedItemsImports = 13
+		PixelFarm.Drawing\PixelFarm.Drawing.projitems*{bec9ce3c-6283-4feb-9492-569f72e10341}*SharedItemsImports = 13
+		BackEnd.BurningMineCurve\BackEnd.BurningMineCurve.projitems*{ce0e0975-f075-4680-8dac-e9636a04024a}*SharedItemsImports = 13
+		Typography.TextServices\Typography.TextServices.projitems*{d07686ee-2618-4c20-8eb5-32ad4c4d3810}*SharedItemsImports = 13
+		Typography.GlyphLayout\Typography.GlyphLayout.projitems*{d8861cf8-c506-472b-8a57-632bd6ca6496}*SharedItemsImports = 13
+		PixelFarm.Vectors\PixelFarm.Vectors.projitems*{de582941-46e9-4b2a-b8b8-ed68ee0cd3e0}*SharedItemsImports = 13
+		BackEnd.Tesselate\BackEnd.Tesselate.projitems*{e0870335-6d7a-4219-97ca-6150357913b0}*SharedItemsImports = 13
+		PixelFarm.Typography\PixelFarm.Typography.projitems*{ea293b05-1c44-49e3-8acb-5e9f988006d9}*SharedItemsImports = 13
+		FontAtlas\FontAtlas.projitems*{f6602808-f1d5-4e3b-bb8c-b9ca4ae77437}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DF8B6B0-BCA2-44C4-A527-5C0059E90E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DF8B6B0-BCA2-44C4-A527-5C0059E90E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DF8B6B0-BCA2-44C4-A527-5C0059E90E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DF8B6B0-BCA2-44C4-A527-5C0059E90E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81609DB8-7B3D-4392-A830-39F820CF010B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81609DB8-7B3D-4392-A830-39F820CF010B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81609DB8-7B3D-4392-A830-39F820CF010B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81609DB8-7B3D-4392-A830-39F820CF010B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B14DFB4-5799-472E-A0C1-F4A1C181EF58}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefineConstants>TRACE;DEBUG;SYSTEM_NUMERICS_VECTOR</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>TRACE;SYSTEM_NUMERICS_VECTOR</DefineConstants>
+  </PropertyGroup>
+
+  <Import Project="..\Typography.OpenFont\Typography.OpenFont.projitems" Label="Shared" />
+
+  <Import Project="..\Typography.GlyphLayout\Typography.GlyphLayout.projitems" Label="Shared" />
+
+  <Import Project="..\Typography.Contours\Typography.Contours.projitems" Label="Shared" />
+
+  <Import Project="..\Pixelfarm.Triangulation\Pixelfarm.Triangulation.projitems" Label="Shared" />
+
+  <Import Project="..\Typography.TextBreak\Typography.TextBreak.projitems" Label="Shared" />
+
+  <Import Project="..\FontAtlas\FontAtlas.projitems" Label="Shared" />
+
+  <Import Project="..\BackEnd.BitmapBufferEx\BackEnd.BitmapBufferEx.projitems" Label="Shared" />
+
+  <Import Project="..\BackEnd.BurningMineCurve\BackEnd.BurningMineCurve.projitems" Label="Shared" />
+
+  <Import Project="..\BackEnd.PaintFx\BackEnd.PaintFx.projitems" Label="Shared" />
+
+  <Import Project="..\BackEnd.Tesselate\BackEnd.Tesselate.projitems" Label="Shared" />
+
+  <Import Project="..\PdnSharedProject\PdnSharedProject.projitems" Label="Shared" />
+
+  <Import Project="..\PixelFarm.CpuBlit\PixelFarm.CpuBlit.projitems" Label="Shared" />
+
+  <Import Project="..\PixelFarm.Drawing\PixelFarm.Drawing.projitems" Label="Shared" />
+
+  <Import Project="..\PixelFarm.DrawingCore\PixelFarm.DrawingCore.projitems" Label="Shared" />
+
+  <Import Project="..\PixelFarm.Painter\PixelFarm.Painter.projitems" Label="Shared" />
+
+  <Import Project="..\PixelFarm.PrimitiveGeo\PixelFarm.PrimitiveGeo.projitems" Label="Shared" />
+
+  <Import Project="..\PixelFarm.Typography\PixelFarm.Typography.projitems" Label="Shared" />
+
+  <Import Project="..\PixelFarm.Vectors\PixelFarm.Vectors.projitems" Label="Shared" />
+
+  <Import Project="..\Typography.TextFlow\Typography.TextFlow.projitems" Label="Shared" />
+
+  <Import Project="..\Typography.MsdfGen\Typography.MsdfGen.projitems" Label="Shared" />
+
+  <Import Project="..\Typography.TextServices\Typography.TextServices.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <Compile Remove="ExtensionAttribute.cs" />
+    <Compile Remove="NOpenFontFace.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Numerics.Vectors" Version="4.5.0" />
+  </ItemGroup>
+
+</Project>

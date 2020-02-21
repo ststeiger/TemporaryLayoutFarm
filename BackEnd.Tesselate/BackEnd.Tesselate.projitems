@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>e0870335-6d7a-4219-97ca-6150357913b0</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>BackEnd.Tesselate</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ActiveRegion.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ContourVertex.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Dictionary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Face.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HalfEdge.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MaxFirstList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)mesh.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Tesselator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)README.md" />
+  </ItemGroup>
+</Project>

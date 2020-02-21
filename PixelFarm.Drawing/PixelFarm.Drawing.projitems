@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>bec9ce3c-6283-4feb-9492-569f72e10341</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>PixelFarm.Drawing</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)4_PlatformServices\StorageService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\DrawBoard\AggPainter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\DrawBoard\AggRenderVx.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\DrawBoard\Canvas2dExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\DrawBoard\dbugVertexSourceIO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\DrawBoard\LineDashGenerator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\Others\1_Base\BorderDouble.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\Others\1_Base\ClipProxyImage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\Others\1_Base\GammaFuntions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\Others\1_Base\ImgFilters.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\Others\1_Base\ProxyImage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\Others\3_Filter\BrightnesssAndContrast.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\Others\3_Filter\ImageFilters.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\Others\3_Filter\InternalBrightnessAndContrastAdjustment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\Others\3_Filter\PatternFilterBilnearColorRGBA.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\Others\3_Filter\RecursiveBlur.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\Others\3_Filter\SharpenFilter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\Others\3_Filter\StackBlur.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\Others\4_Image\FilterMan.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\Others\4_Image\FloodFiller.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\Others\4_Image\Queue.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\Others\4_Image\Transposer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\RenderSurface\AggRenderSurface.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\RenderSurface\AggRenderSurface_RenderImages.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)7_CpuBlitPainter\RenderSurface\SvgRenderVx.cs" />
+  </ItemGroup>
+</Project>
